@@ -1,0 +1,4 @@
+
+*.suo
+/SeasonRenamer/bin
+/SeasonRenamer/obj
