@@ -458,9 +458,9 @@ public partial class frmMain : Form
 
     private void btnReplace_Click(object sender, EventArgs e)
     {
-        if (txtReplace1.Text.Length == 0 && txtReplace2.Text.Length == 0)
+        if (txtReplace1.Text.Length == 0)
         {
-            Program.showMessageBox("Error! You cannot replace a blank string with a blank string.");
+            Program.showMessageBox("Error! You cannot replace a blank string.");
             return;
         }
         if (!Program.showQuestionBox("This will replace \"" + txtReplace1.Text +
